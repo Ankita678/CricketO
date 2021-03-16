@@ -1,4 +1,4 @@
-package com.project.Order.controller;
+package com.project.order.controller;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -7,18 +7,18 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
-import com.project.Order.service.OrderService;
-import com.project.Order.service.ProductsOrderedService;
-import com.project.Order.dto.CartDTO;
-import com.project.Order.dto.OrderDTO;
-import com.project.Order.dto.OrderDetailsDTO;
-import com.project.Order.dto.ProductDTO;
-import com.project.Order.dto.ProductsOrderedDTO;
-import com.project.Order.dto.BuyerDTO;
-import com.project.Order.entity.OrderDetails;
-import com.project.Order.entity.ProductsOrdered;
-import com.project.Order.repository.OrderRepository;
-import com.project.Order.repository.ProductsOrderedRepository;
+import com.project.order.service.OrderService;
+import com.project.order.service.ProductsOrderedService;
+import com.project.order.dto.CartDTO;
+import com.project.order.dto.OrderDTO;
+import com.project.order.dto.OrderDetailsDTO;
+import com.project.order.dto.ProductDTO;
+import com.project.order.dto.ProductsOrderedDTO;
+import com.project.order.dto.BuyerDTO;
+import com.project.order.entity.OrderDetails;
+import com.project.order.entity.ProductsOrdered;
+import com.project.order.repository.OrderRepository;
+import com.project.order.repository.ProductsOrderedRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;

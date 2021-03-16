@@ -1,4 +1,4 @@
-package com.project.Order.dto;
+package com.project.order.dto;
 
 
 public class BuyerDTO {

@@ -1,13 +1,13 @@
-package com.project.Order;
+package com.project.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OrderApplication {
+public class OrderMsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrderApplication.class, args);
+		SpringApplication.run(OrderMsApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.project.Order.service;
+package com.project.order.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,12 +7,12 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.project.Order.dto.OrderDetailsDTO;
-import com.project.Order.entity.OrderCompositeId;
-import com.project.Order.entity.OrderDetails;
-import com.project.Order.entity.ProductsOrdered;
-import com.project.Order.repository.OrderRepository;
-import com.project.Order.repository.ProductsOrderedRepository;
+import com.project.order.dto.OrderDetailsDTO;
+import com.project.order.entity.OrderCompositeId;
+import com.project.order.entity.OrderDetails;
+import com.project.order.entity.ProductsOrdered;
+import com.project.order.repository.OrderRepository;
+import com.project.order.repository.ProductsOrderedRepository;
 @Service
 public class ProductsOrderedService {
 	

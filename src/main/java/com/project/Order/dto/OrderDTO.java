@@ -1,11 +1,11 @@
-package com.project.Order.dto;
+package com.project.order.dto;
 
 
 import java.time.LocalDate;
 
 import java.util.List;
 
-import com.project.Order.entity.OrderDetails;
+import com.project.order.entity.OrderDetails;
 
 public class OrderDTO {
 

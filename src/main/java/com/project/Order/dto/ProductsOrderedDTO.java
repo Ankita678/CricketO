@@ -1,6 +1,6 @@
-package com.project.Order.dto;
+package com.project.order.dto;
 
-import com.project.Order.entity.ProductsOrdered;
+import com.project.order.entity.ProductsOrdered;
 
 public class ProductsOrderedDTO {
 	

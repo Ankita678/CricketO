@@ -1,4 +1,4 @@
-package com.project.Order.entity;
+package com.project.order.entity;
 
 
 import java.time.LocalDate;
